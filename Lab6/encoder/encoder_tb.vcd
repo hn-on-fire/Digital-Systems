@@ -1,0 +1,71 @@
+$date
+	Sat Oct  8 16:21:57 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module encoder_tb $end
+$var wire 3 ! y [2:0] $end
+$var reg 8 " inp [7:0] $end
+$var integer 32 # i [31:0] $end
+$scope module q $end
+$var wire 8 $ inp [7:0] $end
+$var reg 3 % y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b1 $
+b0 #
+b1 "
+b0 !
+$end
+#20
+b1 !
+b1 %
+b10 "
+b10 $
+b1 #
+#40
+b10 !
+b10 %
+b100 "
+b100 $
+b10 #
+#60
+b11 !
+b11 %
+b1000 "
+b1000 $
+b11 #
+#80
+b100 !
+b100 %
+b10000 "
+b10000 $
+b100 #
+#100
+b101 !
+b101 %
+b100000 "
+b100000 $
+b101 #
+#120
+b110 !
+b110 %
+b1000000 "
+b1000000 $
+b110 #
+#140
+b111 !
+b111 %
+b10000000 "
+b10000000 $
+b111 #
+#160
+b1000 #
