@@ -1,0 +1,40 @@
+$date
+	Sat Oct 22 15:24:56 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Q4_tb $end
+$scope module q4 $end
+$var wire 4 ! inp [3:0] $end
+$var wire 2 " s [1:0] $end
+$var wire 1 # y $end
+$var wire 2 $ temp [1:0] $end
+$scope function mux2to1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+0#
+b0 "
+b1010 !
+$end
+#20
+1#
+b11 $
+b1 "
+#40
+0#
+b0 $
+b10 "
+#60
+1#
+b11 $
+b11 "
+#80
