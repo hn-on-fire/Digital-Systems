@@ -1,0 +1,77 @@
+$date
+	Sat Nov  5 14:52:49 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ha_tb $end
+$scope module h $end
+$var wire 1 ! c $end
+$var wire 3 " inp [2:0] $end
+$var wire 1 # t3 $end
+$var wire 1 $ t2 $end
+$var wire 1 % t1 $end
+$var wire 1 & s $end
+$scope module h1 $end
+$var wire 1 $ c $end
+$var wire 2 ' inp [1:0] $end
+$var wire 1 % s $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 # c $end
+$var wire 2 ( inp [1:0] $end
+$var wire 1 & s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+b0 '
+0&
+0%
+0$
+0#
+b0 "
+0!
+$end
+#20
+1&
+b1 (
+1%
+b1 '
+b1 "
+#40
+b10 '
+b10 "
+#60
+0&
+1!
+b0 (
+0%
+1$
+b11 '
+b11 "
+#80
+0!
+0$
+1&
+b0 '
+b10 (
+b100 "
+#100
+1!
+0&
+1#
+b11 (
+1%
+b1 '
+b101 "
+#120
+b10 '
+b110 "
+#140
